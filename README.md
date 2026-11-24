@@ -1,3 +1,10 @@
+Student Details
+Name: Sk Asif Rahman
+College: Ghani Khan Choudhury Institute of Engineering and Technology
+Department: CSE (AI & ML)
+
+Smart Water Quality Prediction & Potability Classifier is a machine learning project built to classify whether drinking water samples are potable or non-potable from chemical and physical measurements. It preprocesses sensor data, compares three classical machine-learning models, saves the best-performing model and scaler, and provides an interactive Streamlit web app for real-time prediction.
+
 # Smart Water Quality Prediction
 
 This repository contains a machine learning project to predict water potability based on physicochemical water quality metrics.
@@ -35,3 +42,6 @@ Random Forest was selected as the final model and saved as `water_quality_model.
 
 2. Run the Streamlit app:
    streamlit run app.py
+
+   ## Limitations
+- Missing sensor readings, class imbalance (~61% non-potable vs. ~39% potable), and noisy measurements make this an academic prototype rather than a substitute for    lab testing.
